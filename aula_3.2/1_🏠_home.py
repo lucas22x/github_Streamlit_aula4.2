@@ -12,9 +12,15 @@ import webbrowser
 # executando
 # //////////////////////////////////////////////////////////////
 # digitar no terminal o comando abaixo para ((acessar a pasta)) onde esta o arquivo 1_🏠_home.py
-#   considerando que esta em :  PS C:\1_EstudosPython\codigos_Aplicacoes_IA> 
-#   entao digita no terminal:
+#   1- considerando que esta em :  PS C:\1_EstudosPython\codigos_Aplicacoes_IA> 
+#   2- entao digita no terminal:
 #       cd "7 - Criando Aplicativos Web com Streamlit\codigos_das_aulas\aula_3.2" 
+
+# ou 1-digita no terminal ( cd\ ) para ir para a raiz                                
+#    2- verifica o caminho ate a pasta onde o arquivo esta com o codigo :
+#            caminho = Path(os.path.dirname(__file__))
+#    3- digita no terminal cd "caminho ate a pasta onde esta o arquivo"
+
 # digitar no terminal o comando abaixo para executar o arquivo 1_🏠_home.py (vai abrir no navegador)    
 #     streamlit run 1_🏠_home.py
 # //////////////////////////////////////////////////////////////
