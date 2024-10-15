@@ -31,10 +31,12 @@ st.set_page_config(
     layout="wide"
 )
 
+# nao funciona na cloue do streamlit ------------------
 # aqui so acha nesse PC onde foi criado o projeto
 # caminho = Path('C:\\1_EstudosPython\\codigos_Aplicacoes_IA\\7 - Criando Aplicativos Web com Streamlit\\codigos_das_aulas\\aula_3.2\\datasets')
 # caminho_arquivo_1 = caminho / 'CLEAN_FIFA23_official_data.csv'
 
+# assim funciona na cloue do streamlit ----------------
 # para rodar e achar o arquivo em qualquer PC
 # pois sera enviado a claud do stremalit e tem que achar o arquivo la
 caminho = Path(os.path.dirname(__file__)) / 'datasets' # endereço da pasta (seja qual for) onde esta o arquivo atual + pasta datasets (que esta dentro da pasta do arquivo atual)
@@ -55,11 +57,12 @@ if "data" not in st.session_state: # verificando se a sessao tem o dataframe
 st.markdown("# FIFA23 OFFICIAL DATASET! ⚽️") # colocando texto na tela
 st.sidebar.markdown("Desenvolvido por [Asimov Academy](https://asimov.academy)")
 
-
+# nao funciona na cloue do streamlit ------------------
 # btn = st.button("Acesse os dados no Kaggle") # colocando botao na tela
 # if btn: # vinculando o botao a um link
 #     webbrowser.open_new_tab("https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
 
+# assim funciona na cloue do streamlit ----------------
 btn = st.link_button(
     "Acesse os dados no Kaggle",  # colocando botao na tela
     "https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data" # vinculando o botao a um link
