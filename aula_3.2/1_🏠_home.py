@@ -8,7 +8,7 @@ import pandas as pd
 from pathlib import Path
 from datetime import datetime 
 import webbrowser
-import openai
+import openai  # nao tem por padrao no cloud do streamlit
 
 # executando
 # //////////////////////////////////////////////////////////////
