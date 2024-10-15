@@ -56,9 +56,16 @@ st.markdown("# FIFA23 OFFICIAL DATASET! ⚽️") # colocando texto na tela
 st.sidebar.markdown("Desenvolvido por [Asimov Academy](https://asimov.academy)")
 
 
-btn = st.button("Acesse os dados no Kaggle") # coocando botao na tela
-if btn: # vinculando o botao a um link
-    webbrowser.open_new_tab("https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
+# btn = st.button("Acesse os dados no Kaggle") # colocando botao na tela
+# if btn: # vinculando o botao a um link
+#     webbrowser.open_new_tab("https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
+
+btn = st.link_button(
+    "Acesse os dados no Kaggle",  # colocando botao na tela
+    "https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data" # vinculando o botao a um link
+    ) 
+
+
 
 st.markdown(   # colocando texto na tela
     """
