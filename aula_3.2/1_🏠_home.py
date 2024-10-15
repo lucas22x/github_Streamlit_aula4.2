@@ -8,6 +8,7 @@ import pandas as pd
 from pathlib import Path
 from datetime import datetime 
 import webbrowser
+import openai
 
 # executando
 # //////////////////////////////////////////////////////////////
@@ -30,10 +31,12 @@ st.set_page_config(
     layout="wide"
 )
 
+# aqui so acha nesse PC onde foi criado o projeto
 # caminho = Path('C:\\1_EstudosPython\\codigos_Aplicacoes_IA\\7 - Criando Aplicativos Web com Streamlit\\codigos_das_aulas\\aula_3.2\\datasets')
 # caminho_arquivo_1 = caminho / 'CLEAN_FIFA23_official_data.csv'
 
-# para rodar e achar o arquivo em qualquer PCs
+# para rodar e achar o arquivo em qualquer PC
+# pois sera enviado a claud do stremalit e tem que achar o arquivo la
 caminho = Path(os.path.dirname(__file__)) / 'datasets' # endereço da pasta (seja qual for) onde esta o arquivo atual + pasta datasets (que esta dentro da pasta do arquivo atual)
 caminho_arquivo_1 = caminho / 'CLEAN_FIFA23_official_data.csv'
 
