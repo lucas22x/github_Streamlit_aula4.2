@@ -1,6 +1,9 @@
 
 
 
+# referente a (( 7 - Criando Aplicativos Web com Streamlit\codigos_das_aulas\aula_3.2 ))
+
+
 import os
 # os.system('cls')  # nao utilizar para poder ver o localhost do streamlit no terminal
 import streamlit as st
