@@ -1,6 +1,6 @@
 
 
-
+# oi
 # referente a (( 7 - Criando Aplicativos Web com Streamlit\codigos_das_aulas\aula_3.2 ))
 
 
